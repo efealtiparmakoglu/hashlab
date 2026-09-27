@@ -1,0 +1,4 @@
+/hashlab
+*.o
+plot_tests
+.DS_Store
