@@ -1,4 +1,5 @@
 /* hash_tests.c — known-answer vectors, padding boundaries, streaming. */
+#define _POSIX_C_SOURCE 200809L /* popen/pclose under -std=c11 */
 #include <stdio.h>
 #include <string.h>
 
